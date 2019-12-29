@@ -8,11 +8,9 @@ echo "Hello world";
    of multiline comments
    that will not be interpreted */
 
-$mycounter = 1;
-$mystring = "Hello";
-$myarray = array("one", "two", "three");
+$username = "John Doe";
+echo $username;
+echo "<br />";
+$current_user = $username;
+echo $current_user;
 
-echo $mycounter;
-echo PHP_EOL;
-echo $mystring + PHP_EOL;
-echo $myarray;
